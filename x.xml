@@ -1,0 +1,4 @@
+<security:http>
+    <security:form-login/>
+    <security:intercept-url pattern="/**" access="permitAll()" />
+</security:http>
